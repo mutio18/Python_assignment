@@ -1,0 +1,8 @@
+import matplotlib.pyplot as plt
+temperature =[20,22,19,23,21,24,20]
+days=["Mon","Tue","Wed","Thu","Fri","Sat","Sun"]
+plt.plot(days,temperature,marker= '*')
+plt.title("temperature during the week")
+plt.xlabel("days")
+plt.ylabel("temperature(°C)")
+plt.show
